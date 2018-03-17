@@ -2,14 +2,14 @@ package com.neunzwei;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
-@EnableEurekaServer
-public class MyEurekaServer {
+@EnableDiscoveryClient
+public class MyServiceRibbon {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MyEurekaServer.class, args);
+		SpringApplication.run(MyServiceRibbon.class, args);
 	}
 
 }
