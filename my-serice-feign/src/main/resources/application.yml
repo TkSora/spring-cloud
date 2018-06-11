@@ -2,4 +2,7 @@ server:
   port: 8765
 spring:
   application:
-    name: my-serice-feign
+    name: my-service-feign
+feign:
+  hystrix:
+    enabled: true
