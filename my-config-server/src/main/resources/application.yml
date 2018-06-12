@@ -8,5 +8,5 @@ spring:
       server:
         git:
           uri: https://github.com/TkSora/spring-cloud
-          search-paths: config
+          search-paths: config/{application}
       label: master
